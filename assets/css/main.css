@@ -162,6 +162,34 @@ input, select, textarea {
 	max-height: 30vh !important;
 }
 
+.stolpersteine {
+	max-height: 2vh;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+/*	top:10vh;*/
+}
+
+
+
+.footertext{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.footerdiv{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footermain{
+/*	padding: 0 !important;*/
+}
 
 /* Type */
 
@@ -203,7 +231,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+/*		border-bottom: dotted 1px;*/
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2918,8 +2946,18 @@ input, select, textarea {
 				background-color: #fffff2;
 			}
 
+			.tiles2 article:nth-child(6n - 3):before {
+				background-color: #fffff2;
+				opacity: 0;
+			}
+
 			.tiles article:nth-child(6n - 2):before {
 				background-color: #fffff2;
+			}
+
+			.tiles2 article:nth-child(6n - 2):before {
+				background-color: #fffff2;
+				opacity: 0;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -3696,7 +3734,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #fffff2;
 	}
 
 		#main > * {
