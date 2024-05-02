@@ -3389,12 +3389,12 @@ input, select, textarea {
 							right: 2em;
 						}
 
-		#header.reveal {
+/*		#header.reveal {
 			-moz-animation: reveal-header 0.35s ease;
 			-webkit-animation: reveal-header 0.35s ease;
 			-ms-animation: reveal-header 0.35s ease;
 			animation: reveal-header 0.35s ease;
-		}
+		}*/
 
 		#header.alt {
 /*			-moz-transition: opacity 2.5s ease;
@@ -3439,7 +3439,7 @@ input, select, textarea {
 			}
 
 		body.is-preload #header.alt {
-			opacity: 0;
+			opacity: 100;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -3712,7 +3712,7 @@ input, select, textarea {
 			-webkit-transform: translateX(-0.5em);
 			-ms-transform: translateX(-0.5em);
 			transform: translateX(-0.5em);
-			opacity: 0;
+			opacity: 100;
 		}
 
 		@media screen and (max-width: 1280px) {
