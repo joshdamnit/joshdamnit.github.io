@@ -145,6 +145,17 @@ input, select, textarea {
   display: flex;
   justify-content: center;
   max-width: 150px;
+  border-radius: 0.1em;
+}
+
+.btn2 {
+  text-decoration: none;
+  padding: 0.5rem;
+  background-color: rgba(26,26,28,1);
+  display: flex;
+  justify-content: center;
+  max-width: 250px;
+  border-radius: 0.1em;
 }
 
 .casetext {
@@ -191,15 +202,25 @@ input, select, textarea {
 /*	padding: 0 !important;*/
 }
 
+.reel {
+	color: #fffff2;
+	display: flex;
+	justify-content: center;
+}
+
+#reelbutton {
+
+}
+
 /* Type */
 
 	body, input, select, textarea {
 		color: #1a1a1c;
-		font-family: "Francois One", Helvetica, sans-serif;
+		font-family: "Roboto Condensed", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 400;
 		letter-spacing: 0.25em;
-		line-height: 1.65;
+		line-height: 1.55;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -238,12 +259,19 @@ input, select, textarea {
 
 		a:hover {
 			color: #182120 !important;
+
 			background-color: #fffff2;
 		}
 
 		a:active {
 			color: #53e3fb !important;
 		}
+
+		.btn2:hover {
+		background-color:#F5A28E !important;
+		}
+
+
 
 	strong, b {
 		color: #ffffff;
@@ -272,7 +300,8 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.5em;
-		text-transform: uppercase;
+/*		text-transform: uppercase;*/
+		letter-spacing: 0em;
 	}
 
 	h2 {
@@ -280,6 +309,11 @@ input, select, textarea {
 	}
 
 	h3 {
+		font-family: "Roboto Condensed", Helvetica, sans-serif;
+/*		font-size: 17pt;
+		font-weight: 400;*/
+		letter-spacing: 0em;
+		line-height: 1.55;
 		font-size: 1.35em;
 		text-transform: uppercase;
 		color: #fffff2;
@@ -291,14 +325,20 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.9em;
-		text-transform: uppercase;
+		font-size: 1.2em;
+		letter-spacing: 0.1em;
+/*		text-transform: uppercase;*/
+		font-family: "Hind Madurai", Helvetica, sans-serif;
+		font-weight: normal;
 	}
 
 	h6 {
+		font-family: "Overpass", Helvetica, sans-serif;
+		letter-spacing: 0.1em;
+		font-weight: normal;
 		font-size: 0.83em;
 		color: #fffff2;
-		text-transform: uppercase;
+/*	text-transform: uppercase;*/
 		filter: drop-shadow(0 0 2rem rgba(0,0,0,0.9));
 	}
 
