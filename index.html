@@ -9,8 +9,9 @@
 		<title>joshdamnit</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/popup.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -42,6 +43,18 @@
 
 				<!-- Banner -->
 					<section id="banner" class="major">
+
+						<div id="myModal" class="modal">
+
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <span class="close">&times;</span>
+								    <video id="videopopup" width="1920" controls>
+								  <source src="https://www.blustudios.de/wp-content/uploads/Portfolio_Josh/Allianz_Autoland.mp4" type="video/mp4">
+						</video>
+						  </div>
+
+						</div>
 						<div class="inner">
 							<header class="major">
 								<h1>Hi, ich bin Josh.</h1>
@@ -50,19 +63,12 @@
 								<h5>Ich bin Bewegtbild-Allrounder mit Schwerpunkt Postproduktion.</h5>
 							</div>
 							<div class ="reel">
-								 <a class="btn2 video" id="reelbutton" href="https://drive.google.com/file/d/1id8-56iJ0yRNckrwXFAYviIH3Pa7p_HG/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="font-weight: bold; font-size: 22px; text-transform: uppercase;">Play Reel</a>
+
+								<a class="btn2 video" id="btn1" style="font-weight: bold; font-size: 22px; text-transform: uppercase;">Play Reel</a>
 							</div>
 						</div>
 					</section>
 
-<!-- 				
-						<div class="reel_outer">
-							<div class = "reel_inner">
-								<video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
-								  <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
-								</video>
-							</div>
-						</div> -->
 
 				<!-- Main -->
 					<div id="main">
@@ -76,7 +82,10 @@
 									<header class="major">
 										<h3>Migros</h3>
 										<h6>Jubiläumsfilm - Retusche & Colorgrading</h6>
-										    <a class="btn video" href="https://drive.google.com/file/d/1f_S4HgtvolrxbDN6V0q4GYPvmZI9G3Yu/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="font-weight: bold; font-size: 15px; text-transform: uppercase;">Play</a>
+										    <a class="btn video" id="btn1" href="https://drive.google.com/file/d/1f_S4HgtvolrxbDN6V0q4GYPvmZI9G3Yu/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="font-weight: bold; font-size: 15px; text-transform: uppercase;">Play</a>
+
+
+
 										    <a class="btn" href="migros.html" style="font-weight: bold; font-size: 15px; text-transform: uppercase;">Infos</a>
 									</header>
 								</article>
@@ -87,7 +96,7 @@
 									<header class="major">
 										<h3>Allianz</h3>
 										<h6>Personalisierte Videos - Postproduktion</h6>
-										  	<a class="btn video" href="https://drive.google.com/file/d/1N_NylllZz2ta9jiY1YtA14oKlirQwlW0/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="font-weight: bold; font-size: 15px; text-transform: uppercase;">Play</a>
+										  	<a class="btn video" href="https://www.blustudios.de/wp-content/uploads/Portfolio_Josh/Allianz_Unfallsimulator.mp4" target="_blank" rel="noopener noreferrer" style="font-weight: bold; font-size: 15px; text-transform: uppercase;">Play</a>
 										    <a class="btn" href="allianz-unfall.html" style="font-weight: bold; font-size: 15px; text-transform: uppercase;">Infos</a>
 									</header>
 								</article>
@@ -325,7 +334,7 @@
 			</div> -->
 
 		<!-- Scripts -->
-
+			<script src="assets/js/jquery-3.1.1.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -334,6 +343,12 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/popup.js"></script>
+
+
+
+
+
+
 
 	</body>
 </html>

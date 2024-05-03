@@ -1,22 +1,32 @@
-$("[data-media]").on("click", function(e) {
-    e.preventDefault();
-    var $this = $(this);
-    var videoUrl = $this.attr("data-media");
-    var popup = $this.attr("href");
-    var $popupIframe = $(popup).find("iframe");
-    
-    $popupIframe.attr("src", videoUrl);
-    
-    $this.closest(".page").addClass("show-popup");
-});
+var modal = document.getElementById("myModal");
 
-$(".popup").on("click", function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    
-    $(".page").removeClass("show-popup");
-});
+// Get the button that opens the modal
+var btn = document.getElementById("btn1");
 
-$(".popup > iframe").on("click", function(e) {
-    e.stopPropagation();
-});
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById('videopopup').play();
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  document.querySelector('video').pause();
+  document.querySelector('video').currentTime = 0;
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.querySelector('video').pause();
+    document.querySelector('video').currentTime = 0;
+  }
+}
+
+
+
