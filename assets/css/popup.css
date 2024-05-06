@@ -1,15 +1,12 @@
 
-@media (max-width: 1200px) { 
-
-  #videopopup {
-    max-width: 60vw;
-  }
-  .modal-content {
+/*@media  (min-width: 1000px) { 
+    .modal-content {
     max-width: 80vw;
   }
+  #videopopup {
+    max-width: 60vw;
 }
-
-
+*/
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -31,20 +28,24 @@
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 100%;
 }
 
 /* The Close Button */
-.close {
+.closebtn {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.closebtn:hover,
+.closebtn:focus {
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
+}
+
+#reel {
+  max-width: 80vw;
 }

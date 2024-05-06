@@ -83,11 +83,19 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
+	@media only screen and (min-width:1500px) {
+
+		.inner{
+			padding-top: 100px;
+		}
+	}
+
 	@media screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
 		}
+
 
 	}
 
@@ -210,7 +218,44 @@ input, select, textarea {
 }
 
 
+.backdiv {
+	display: flex;
+	justify-content: center;
+margin-top:100px;
+margin-bottom:50px;
+}
 
+
+.backbutton{
+	background-color: #1a1a1c;
+	color:#fffff2;
+	border-color: black;
+}
+
+.portrait {
+	max-width: 15em;
+}
+
+.about {
+	display: flex;
+}
+
+.abouttext {
+	width:100vw;
+	display: flex;
+	text-align: center;
+	background-color: #1a1a1c;
+	color: #fffff2;
+	display: block;
+	font-family: "Overpass", Helvetica, sans-serif;
+/*	padding-left: 10vw;*/
+	font-size: 0.83em;
+	letter-spacing: 0.1em;
+	padding-top:3vh;
+	padding-bottom: 3vh;
+	margin-bottom: -10px;
+
+}
 
 
 
@@ -2679,8 +2724,8 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			box-shadow: inset 0 0 0 2px #F5A28E;
+			color: #F5A28E;
 		}
 
 		input[type="submit"]:active,
