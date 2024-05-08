@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: #1a1a1c !important;
 }
 
 ol, ul {
@@ -147,6 +148,8 @@ input, select, textarea {
 }
 
 
+
+
 .btn {
   text-decoration: none;
   padding: 0.5rem;
@@ -168,6 +171,7 @@ input, select, textarea {
 }
 
 .casetext {
+	margin-top: 100px;
 	color: #1a1a1c;
 	text-transform: none !important;
 	font-size: 0.9em !important;
@@ -221,7 +225,7 @@ input, select, textarea {
 .backdiv {
 	display: flex;
 	justify-content: center;
-margin-top:100px;
+margin-top:200px;
 margin-bottom:50px;
 }
 
@@ -257,10 +261,132 @@ margin-bottom:50px;
 
 }
 
+#myfooter {
+	align-items: center;
+	background-color: #1a1a1c;
+	display: flex;
+	height:2em;
+	vertical-align: middle;
+	justify-content: center;
+/*	padding-top: 3vh;*/
+}
+
+#mycontact_outer {
+
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+
+}
+
+#mycontact {
+
+	align-items: center;
+	text-align: center;
+	background-color: #ffffff2;
+	display: block;
+	height:2em;
+	vertical-align: middle;
+	justify-content: center;
+/*	padding-top: 3vh;*/
+}
+
+#myimpressum {
+	color:#fffff2;
+	font-family: Roboto Condensed;
+	font-size: 0.75em;
+}
+
+#myimpressum2 {
+	color:#fffff2;
+	font-family: Roboto Condensed;
+	font-size: 0.75em;
+	margin: 0 !important;
+}
+
+#mycontacts {
+	color:#fffff2;
+	font-family: Roboto Condensed;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+#mycontacts2 {
+	color:#fffff2;
+	font-family: Roboto Condensed;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 0 !important;
+}
+
+#mycontacts:hover {
+	background-color: #1a1a1c;
+	color: #F5A28E !important
+}
 
 
+#myimpressum:hover {
+	background-color: #1a1a1c;
+	color: #F5A28E !important
+}
+
+.impressum {
+	text-align: center;
+	color:#1a1a1c;
+	font-family: Roboto Condensed;
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	font-size: 0.75em;
+}
+
+.impressum_inner {
+	align-items: center;
+	max-width: 50vw;
+}
+
+.impressum_outer {
+	justify-content: center;
+	display: flex;
+}
+
+#mycontact_outer {
+	background-color: #1a1a1c;
+	align-items: center;
+	height: 20vh;
+	justify-content: center;
+	display: flex;
+}
+
+#ref_image {
+ border:solid;
+ border-color: #1a1a1c;
+ border-width:0.3em;
+}
+
+.wrapper_titles {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#one {
+	width: 80vw;
+}
 
 
+@media (max-width: 900px) { 
+    #one {
+   	 width: 100vw !important;
+		}
+}
+
+#casebottom {
+	width:100vw !important;
+}
+
+.wrapper_case {
+	padding-top:0 !important;
+}
 
 
 
@@ -329,7 +455,7 @@ margin-bottom:50px;
 
 
 	strong, b {
-		color: #ffffff;
+		color: #1a1a1c;
 		font-weight: 600;
 	}
 
@@ -2936,6 +3062,7 @@ margin-bottom:50px;
 			overflow: hidden;
 			position: relative;
 			width: 40%;
+
 		}
 
 			.tiles article .image {
@@ -3757,7 +3884,7 @@ margin-bottom:50px;
 		body.is-preload #banner:after {
 			opacity: 1.0;
 		}
-
+/*
 		body.is-preload #banner > .inner {
 			-moz-filter: blur(0.125em);
 			-webkit-filter: blur(0.125em);
@@ -3768,7 +3895,7 @@ margin-bottom:50px;
 			-ms-transform: translateX(-0.5em);
 			transform: translateX(-0.5em);
 			opacity: 100;
-		}
+		}*/
 
 		@media screen and (max-width: 1280px) {
 

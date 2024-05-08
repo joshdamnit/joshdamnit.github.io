@@ -1,12 +1,5 @@
 
-/*@media  (min-width: 1000px) { 
-    .modal-content {
-    max-width: 80vw;
-  }
-  #videopopup {
-    max-width: 60vw;
-}
-*/
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
