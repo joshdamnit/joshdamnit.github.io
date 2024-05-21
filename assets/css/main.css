@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
 
 /*
 	Forty by HTML5 UP
@@ -146,12 +147,14 @@ input, select, textarea {
 
 .inner {
 	top: -5vh;
+
 }
 
 
 
 
 .btn {
+	color:black;
   text-decoration: none;
   padding: 0.5rem;
   background-color: rgba(255,255,242,0.5);
@@ -238,7 +241,10 @@ margin-bottom:50px;
 }
 
 .portrait {
-	max-width: 15em;
+
+	margin-bottom: 50px;
+	border-radius: 50%;
+	max-width: 25em;
 }
 
 .about {
@@ -246,17 +252,19 @@ margin-bottom:50px;
 }
 
 .abouttext {
+
 	width:100vw;
 	display: flex;
 	text-align: center;
 	background-color: #F7ACCF;
 	color: #392759;
 	display: block;
-	font-family: "Poppins", Helvetica, sans-serif;
+	font-family: "Overpass", Helvetica, sans-serif;
+
 /*	padding-left: 10vw;*/
-	font-size: 0.83em;
-	letter-spacing: 0.05em;
-	padding-top:3vh;
+	font-size: 1.1em;
+/*	letter-spacing: 0.05em;*/
+/*	padding-top:3vh;*/
 	padding-bottom: 3vh;
 	margin-bottom: -10px;
 
@@ -303,8 +311,9 @@ margin-bottom:50px;
 
 #myimpressum {
 	color:#392759;
-	font-family: Poppins;
-	font-size: 0.75em;
+	font-family: Overpass;
+	font-weight: bold;
+	font-size: 1em;
 }
 
 #myimpressum2 {
@@ -316,29 +325,30 @@ margin-bottom:50px;
 
 #mycontacts {
 	color:#392759;
-	font-family: Poppins;
+	font-family: Overpass;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	text-transform: uppercase;
 }
 
 #mycontacts2 {
 	color:#392759;
-	font-family: Poppins;
+	font-family: Overpass;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	margin: 0 !important;
 }
 
 #mycontacts:hover {
-	background-color: #392759;
-	color: #F5A28E !important
+/*	background-color: black;*/
+	background-color: rgba(0,0,0,0);
+	color: #F7ACCF !important
 }
 
 
 #myimpressum:hover {
-	background-color: #392759;
-	color: #F5A28E !important
+	background-color: rgba(0,0,0,0);
+	color: #F7ACCF !important
 }
 
 .impressum {
@@ -414,7 +424,9 @@ margin-bottom:50px;
 			text-align: center;
 		}
 		.portrait {
-/*			margin-left: 50%;*/
+			margin-bottom: 50px;
+			border-radius: 50%;
+			max-width: 16em;
 		}
 
 
@@ -427,6 +439,7 @@ margin-bottom:50px;
 .wrapper_case {
 	padding-top:0 !important;
 }
+
 
 
 	
@@ -489,7 +502,7 @@ margin-bottom:50px;
 		}
 
 		.btn2:hover {
-		background-color:#392759 !important;
+		background-color:black !important;
 		}
 
 
@@ -3778,6 +3791,7 @@ margin-bottom:50px;
 		min-height: 22em;
 		position: relative;
 /*		top: -3.25em;*/
+
 	}
 
 		#banner2 {
@@ -3890,7 +3904,8 @@ margin-bottom:50px;
 				}
 
 		#banner.major {
-			height: 50vh;
+			margin-top: 5vh;
+			height: 30vh;
 			min-height: 5em;
 			max-height: 50em;
 		}
