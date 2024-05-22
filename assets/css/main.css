@@ -223,6 +223,13 @@ input, select, textarea {
 /*	padding: 0 !important;*/
 }
 
+.reel_outer {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 200px;
+}
+
 .reel {
 	color: #ffffff;
 	display: flex;
@@ -307,6 +314,7 @@ margin-bottom:50px;
 
 
 .abouttext {
+		color: #122B54;
 		background-color: #ffffff;
 		background: transparent;
 }
@@ -482,6 +490,17 @@ margin-bottom:50px;
 	width:80vw;
 }
 
+.introtext2 {
+	 text-decoration: underline;
+	 text-decoration-thickness: 6px;
+	 text-underline-offset: 5px;
+  -webkit-text-decoration-color: #F7ACCF; /* Safari */  
+  text-decoration-color: #F7ACCF;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	width:80vw;
+}
+
 .service_outer {
 	display: flex;
 	justify-content: center;
@@ -500,6 +519,39 @@ margin-bottom:50px;
 }
 
 
+.inner {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.inner2 {
+	padding-top: 10vh;
+	margin-bottom: -5vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.einladung {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.aperol {
+	color: #122B54;
+		justify-content: center;
+	width:80vw;
+	display: block;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-size: 1.1em;
+
+}
+
 @media all and (min-device-width: 800px) and (max-device-height: 1280px) {
   #about {
   	padding-top: 15vh;
@@ -517,6 +569,7 @@ margin-bottom:50px;
 @media all and (min-device-width: 800px) and (max-device-height: 1280px) {
   #about {
   	padding-top: 15vh;
+  	margin-top: 15vh;
   }
 
 	#mycontacts {
@@ -526,9 +579,21 @@ margin-bottom:50px;
 	#mycontacts2 {
 			font-size: 2em !important;
 	}
-			.service {
+
+	.service {
 			width: 80vw;
-		}
+	}
+
+	.reel_outer {
+		display: flex !important;
+		justify-content: center !important;
+		position: relative !important;
+		top: 200px !important;
+	}
+
+	#banner {
+		margin-top: 10vh !important;
+	}
 
 }
 
@@ -590,6 +655,18 @@ h2 {
 			font-size: 1.5em;
 		}
 
+		.reel_outer {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		top: 10px;
+		}
+
+		#banner {
+			padding-top: 7vh !important;
+		}
+
+
 
 
 }
@@ -606,6 +683,7 @@ h2 {
 #about {
 	position: relative;
 	top:250px;
+	padding-top: 5vh;
 
 }
 
@@ -3560,6 +3638,15 @@ h2 {
 
 				}
 
+
+				.spotlights > section > .content > .inner2 {
+					margin: 0 auto;
+					max-width: 100%;
+					width: 65em;
+
+
+				}
+
 			.spotlights > section:nth-child(2n) {
 				-moz-flex-direction: row-reverse;
 				-webkit-flex-direction: row-reverse;
@@ -4027,6 +4114,7 @@ h2 {
 			z-index: 2;
 		}
 
+
 			#banner > .inner .image {
 				display: none;
 			}
@@ -4202,6 +4290,7 @@ h2 {
 				max-width: 65em;
 				width: calc(100% - 6em);
 			}
+
 
 				@media screen and (max-width: 736px) {
 
