@@ -1,7 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*
 	Forty by HTML5 UP
@@ -188,6 +190,8 @@ input, select, textarea {
 
 .case {
 	max-height: 30vh !important;
+	padding:0 !important;
+	margin: 0 !important;
 }
 
 .stolpersteine {
@@ -229,7 +233,7 @@ input, select, textarea {
 .backdiv {
 	display: flex;
 	justify-content: center;
-margin-top:200px;
+/*margin-top:200px;*/
 margin-bottom:50px;
 }
 
@@ -251,21 +255,16 @@ margin-bottom:50px;
 }
 
 .abouttext {
-	width:78vw;
+	width:70vw;
 	display: flex;
 	text-align: center;
 	background-color: #122B54;
 	color: #392759;
 	display: block;
 	font-family: "Roboto", Helvetica, sans-serif;
-
-/*	padding-left: 10vw;*/
 	font-size: 1.1em;
-/*	letter-spacing: 0.05em;*/
-/*	padding-top:3vh;*/
 	padding-bottom: 3vh;
 	margin-bottom: -10px;
-
 }
 
 
@@ -291,6 +290,14 @@ margin-bottom:50px;
 }
 
 .aboutme2 {
+		 text-decoration: underline;
+	 text-decoration-thickness: 6px;
+	 text-underline-offset: 5px;
+  -webkit-text-decoration-color: #F7ACCF; /* Safari */  
+  text-decoration-color: #F7ACCF;
+	padding-top: 8vh;
+		font-size: 1.2em;
+	text-transform: uppercase;
 	display: flex;
 	justify-content: center;
 	background-color: #ffffff;
@@ -341,19 +348,22 @@ margin-bottom:50px;
 }
 
 #mycontact_outer {
+	display: flex;
 
+/*	background-color:#F7ACCF !important ;*/
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 
 }
 
 #mycontact {
+	display: flex;
 
 	align-items: center;
 	text-align: center;
 	background-color: #ffffff2;
 	display: block;
-	height:2em;
+/*	height:2em;*/
 	vertical-align: middle;
 	justify-content: center;
 /*	padding-top: 3vh;*/
@@ -402,16 +412,20 @@ margin-bottom:50px;
 }
 
 .impressum {
+	width:78vw;
+	display: flex;
 	text-align: center;
-	color:#392759;
-	font-family: Poppins;
-	letter-spacing: 0.1em;
-	font-weight: normal;
-	font-size: 0.75em;
+/*	background-color: #122B54;*/
+	color: #392759;
+	display: block;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-size: 1.1em;
+
 }
 
 .impressum_inner {
-	align-items: center;
+	display: flex;
+	justify-content: center !important;
 	max-width: 50vw;
 }
 
@@ -451,16 +465,88 @@ margin-bottom:50px;
 	width: 80vw;
 }
 
+.introtext_outer {
+	display: flex;
+	justify-content: center;
+}
 
+.introtext {
+	 text-decoration: underline;
+	 text-decoration-thickness: 6px;
+	 text-underline-offset: 5px;
+  -webkit-text-decoration-color: #F7ACCF; /* Safari */  
+  text-decoration-color: #F7ACCF;
+	padding-bottom:5vh;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	width:80vw;
+}
+
+.service_outer {
+	display: flex;
+	justify-content: center;
+}
 
 .service {
-	text-align: center;
+/*	width: 80vw;*/
+/*	text-transform: uppercase;*/
+	color: #122B54;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height: 30px;
+	justify-content: center !important;
 	/*	text-decoration: underline;*/
 }
 
+
+@media all and (min-device-width: 800px) and (max-device-height: 1280px) {
+  #about {
+  	padding-top: 15vh;
+  }
+
+	#mycontacts {
+			font-size: 2em !important;
+	}
+
+	#mycontacts2 {
+			font-size: 2em !important;
+	}
+
+}
+@media all and (min-device-width: 800px) and (max-device-height: 1280px) {
+  #about {
+  	padding-top: 15vh;
+  }
+
+	#mycontacts {
+			font-size: 2em !important;
+	}
+
+	#mycontacts2 {
+			font-size: 2em !important;
+	}
+			.service {
+			width: 80vw;
+		}
+
+}
+
+
+
+
 @media (max-width: 900px) { 
+
+h2 {
+	line-height: 50px !important;
+}
+
     #one {
    	 width: 100vw !important;
+		}
+
+		.service {
+			width: 80vw;
 		}
 
 		.aboutme {
@@ -472,6 +558,7 @@ margin-bottom:50px;
 			max-width: 70vw;
 			text-align: center;
 		}
+
 		.portrait {
 			margin-bottom: 50px;
 			border-radius: 50%;
@@ -494,6 +581,15 @@ margin-bottom:50px;
 		.wrapper_titles {
 			margin-top: 0px !important;
 		}
+
+		#mycontacts {
+			font-size: 1.5em;
+		}
+
+		#mycontacts2 {
+			font-size: 1.5em;
+		}
+
 
 
 }
@@ -570,7 +666,7 @@ margin-bottom:50px;
 		a:hover {
 			color: #F7ACCF !important;
 
-			background-color: black;
+			background-color: #122B54;
 		}
 
 		a:active {
@@ -3979,7 +4075,8 @@ margin-bottom:50px;
 				}
 
 		#banner.major {
-			margin-top: 5vh;
+			margin-top: calc(100vw * 0.05);
+/*			margin-top: 5vh;*/
 			height: 30vh;
 			min-height: 5em;
 			max-height: 50em;
