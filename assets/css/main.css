@@ -239,7 +239,7 @@ margin-bottom:50px;
 
 
 .backbutton{
-	background-color: #392759;
+	background-color: #122B54;
 	color:#ffffff;
 	border-color: black;
 }
@@ -416,7 +416,7 @@ margin-bottom:50px;
 	display: flex;
 	text-align: center;
 /*	background-color: #122B54;*/
-	color: #392759;
+	color: #122B54;
 	display: block;
 	font-family: "Roboto", Helvetica, sans-serif;
 	font-size: 1.1em;
@@ -680,7 +680,7 @@ h2 {
 
 
 	strong, b {
-		color: #392759;
+		color: #122B54;
 		font-weight: 600;
 	}
 
@@ -3075,8 +3075,8 @@ h2 {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #F5A28E;
-			color: #F5A28E;
+			box-shadow: inset 0 0 0 2px #F7ACCF;
+			color: #F7ACCF;
 		}
 
 		input[type="submit"]:active,
